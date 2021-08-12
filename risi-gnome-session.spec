@@ -14,7 +14,7 @@ Requires:	gnome-session
 Requires:	gnome-shell-extension-just-perfection
 Requires:	gnome-shell-extension-blur-my-shell
 # Requires:	gnome-shell-extension-tiling-assistant <-- Add back once packaged
-Requires:	gnome-shell-extension-appindicatorsupport
+Requires:	gnome-shell-extension-appindicator
 
 BuildArch:	noarch
 
