@@ -23,6 +23,9 @@ Requires:	gnome-shell-extension-appindicatorsupport
 
 BuildArch:	noarch
 
+%description
+GNOME Session for risiOS (allows custom settings and themes)
+
 %prep
 %autosetup
 %build
@@ -46,5 +49,5 @@ install -m 755 risi-wayland.desktop /usr/share/wayland-sessions/risi-wayland.des
 /usr/share/wayland-sessions/risi-wayland.desktop
 
 %changelog
-* Mon Aug 11 2021 PizzaLovingNerd
+* Wed Aug 11 2021 PizzaLovingNerd
 - Spec file built
