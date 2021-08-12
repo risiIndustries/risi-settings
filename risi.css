@@ -1,0 +1,56 @@
+stage {
+	font-size: small;
+}
+
+.window-caption
+{
+    spacing: 25px;
+    color: #ffffff;
+    background-color: #004AC7;
+    border-radius: 9px;
+    padding: 4px 12px;
+    font-size: small;
+    font-weight: normal;
+}
+
+.search-entry
+{
+    caret-color: white;
+    selection-background-color: #008bff;
+    selected-color: white;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    border: 0;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.search-entry:focus
+{
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.search-entry .search-entry-icon
+{
+    icon-size: 18px;
+    padding: 0 0;
+    color: rgba(255, 255, 255, .5);
+}
+
+.search-section .search-section-separator
+{
+    height: 1px;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.search-section-content
+{
+    spacing: 0;
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+    background: none;
+    text-shadow: none;
+    color: rgba(255, 255, 255, .98);
+}
