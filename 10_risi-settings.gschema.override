@@ -1,28 +1,22 @@
 # risiOS Settings based on risi Settings
 
-###################
-# global settings #
-###################
+##########################
+# risiOS global settings #
+##########################
 
 [org.gnome.shell]
 favorite-apps = ['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Geary.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Photos.desktop', 'org.gnome.Totem.desktop', 'org.gnome.Music.desktop', 'org.gnome.Software.desktop',]
 
 # Set this
-[org.gnome.desktop.background]
-picture-uri = 'file:///usr/share/backgrounds/warty-final-risi.png'
+# [org.gnome.desktop.background]
+# picture-uri = 'file:///usr/share/backgrounds/warty-final-risi.png'
 
 # Set this
-[org.gnome.desktop.screensaver]
-picture-uri = 'file:///usr/share/backgrounds/warty-final-risi.png'
+# [org.gnome.desktop.screensaver]
+# picture-uri = 'file:///usr/share/backgrounds/warty-final-risi.png'
 
 [org.gnome.desktop.session]
 session-name = "risi"
-
-[org.onboard]
-layout = 'Compact'
-theme = 'Nightshade'
-key-label-overrides = ['RWIN::super-group', 'LWIN::super-group']
-xembed-onboard = true
 
 [org.onboard.window]
 docking-enabled = true
@@ -35,8 +29,8 @@ sleep-inactive-ac-timeout = 0
 [org.gnome.desktop.interface:GNOME-Greeter]
 cursor-theme = "DMZ-White"
 
-[org.gnome.login-screen]
-logo='/usr/share/plymouth/risi-logo.png'
+# [org.gnome.login-screen]
+# logo='/usr/share/plymouth/risi-logo.png'
 
 ##################################
 # risiOS common session settings #
@@ -78,3 +72,20 @@ home-icon-visible = true
 
 [org.gnome.nautilus.icon-view:risi]
 default-zoom-level = 'small'
+
+#############################
+# risiOS extension settings #
+#############################
+
+[org.gnome.shell.extensions.just-perfection:risi]
+animation = 3
+theme = false
+workspace-wrap-around = true
+top-panel-position = 1
+activities-button-icon-monochrome: false
+activities-button-label: false
+
+[org.gnome.shell.extensions.blur-my-shell:risi]
+brightness = 0.25
+dash-opacity = 0
+sigma = 50
