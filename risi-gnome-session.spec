@@ -22,7 +22,7 @@ BuildArch:	noarch
 GNOME Session for risiOS (allows custom settings and themes)
 
 %prep
-%autosetup -n main
+%autosetup -n %{name}-main
 %build
 %install
 mkdir -p /usr/share/glib-2.0
