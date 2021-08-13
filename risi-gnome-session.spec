@@ -5,12 +5,7 @@ Summary:        Session for risiOS
 
 License:        GPLv3+
 URL:            https://github.com/risiOS/risi-gnome-session
-
-Source0:        10_risi-settings.gschema.override
-Source1:        risi.css
-Source2:        risi.desktop
-Source3:        risi.json
-Source4:        risi-wayland.desktop
+Source0:        https://github.com/risiOS/risi-gnome-session/archive/refs/heads/main.tar.gz
 
 Provides: 	gnome-session-xsession
 Provides: 	gnome-session-wayland-session
