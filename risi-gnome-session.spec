@@ -5,7 +5,7 @@ Summary:        Session for risiOS
 
 License:        GPLv3+
 URL:            https://github.com/risiOS/risi-gnome-session
-Source0:        https://github.com/risiOS/risi-gnome-session/archive/refs/heads/main.tar.gz
+Source0:        https://github.com/risiOS/risi-gnome-session/archive/refs/heads/main.tar.gz#/%{name}-main.tar.gz
 
 Provides: 	gnome-session-xsession
 Provides: 	gnome-session-wayland-session
