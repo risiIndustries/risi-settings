@@ -1,5 +1,11 @@
 {
     "parentMode": "user",
     "stylesheetName": "risi.css",
-    "enabledExtensions": ["appindicatorsupport@rgcjonas.gmail.com"]
+    "enabledExtensions": [
+    	"appindicatorsupport@rgcjonas.gmail.com",
+    	"drive-menu@gnome-shell-extensions.gcampax.github.com",
+	"dock-from-dash@fthx",
+	"risiGNOME@risi.io",
+	"sound-output-device-chooser@kgshank.net"
+    ]
 }

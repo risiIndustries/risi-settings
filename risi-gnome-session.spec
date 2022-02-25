@@ -1,5 +1,5 @@
 Name:           risi-gnome-session
-Version:        0.1
+Version:        0.3
 Release:        3%{?dist}
 Summary:        Session for risiOS
 
@@ -12,6 +12,10 @@ Provides: 	gnome-session-wayland-session
 
 Requires:	gnome-session
 Requires:	gnome-shell-extension-appindicator
+Requires:	gnome-shell-extension-drive-menu
+Requires:	gnome-shell-extension-risi-gnome
+Requires:	gnome-shell-extension-dock-from-dash
+Requires:	gnome-shell-extension-sound-output-device-chooser
 
 BuildArch:	noarch
 
