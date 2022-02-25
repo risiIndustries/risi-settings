@@ -31,7 +31,7 @@ mkdir -p %{buildroot}%{_datarootdir}/gnome-shell/modes
 mkdir -p %{buildroot}%{_datarootdir}/gnome-shell/theme
 mkdir -p %{buildroot}%{_datarootdir}/wayland-sessions
 mkdir -p %{buildroot}%{_datarootdir}/xsessions
-install -m 755 10_risi-settings.gschema.override %{buildroot}%{_datarootdir}/glib-2.0/10_risi-settings.gschema.override
+install -m 755 00_risi.gschema.override %{buildroot}%{_datarootdir}/glib-2.0/10_risi-settings.gschema.override
 install -m 755 risi.json %{buildroot}%{_datarootdir}/gnome-shell/modes/risi.json
 install -m 755 risi.css %{buildroot}%{_datarootdir}/gnome-shell/theme/risi.css
 install -m 755 risi.desktop %{buildroot}%{_datarootdir}/xsessions/risi.desktop
