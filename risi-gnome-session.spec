@@ -17,7 +17,7 @@ Requires:	gnome-shell-extension-risi-gnome
 Requires:	gnome-shell-extension-dock-from-dash
 Requires:	gnome-shell-extension-sound-output-device-chooser
 
-BuildArch:	noarch
+BuildArch:  noarch
 
 %description
 GNOME Session for risiOS (allows custom settings and themes)
@@ -26,7 +26,7 @@ GNOME Session for risiOS (allows custom settings and themes)
 %autosetup -n %{name}-main
 %build
 %install
-mkdir -p %{buildroot}%{_datarootdir}/glib-2.0
+mkdir -p %{buildroot}%{_datarootdir}/glib-2.0/schemas
 mkdir -p %{buildroot}%{_datarootdir}/gnome-shell/modes
 mkdir -p %{buildroot}%{_datarootdir}/wayland-sessions
 mkdir -p %{buildroot}%{_datarootdir}/xsessions
@@ -37,11 +37,11 @@ install -m 755 risi-wayland.desktop %{buildroot}%{_datarootdir}/wayland-sessions
 install -m 755 risi-wayland.desktop %{buildroot}%{_datarootdir}/xsessions/risi-wayland.desktop
 
 %files
-/usr/share/glib-2.0/schemas/00_risi.gschema.override
-/usr/share/gnome-shell/modes/risi.json
-/usr/share/xsessions/risi.desktop
-/usr/share/xsessions/risi-wayland.desktop
-/usr/share/wayland-sessions/risi-wayland.desktop
+%{_datarootdir}/glib-2.0/schemas/00_risi.gschema.override
+%{_datarootdir}/gnome-shell/modes/risi.json
+%{_datarootdir}/xsessions/risi.desktop
+%{_datarootdir}/xsessions/risi-wayland.desktop
+%{_datarootdir}/wayland-sessions/risi-wayland.desktop
 
 %changelog
 * Thu Feb 25 2022 PizzaLovingNerd
