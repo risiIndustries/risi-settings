@@ -39,7 +39,6 @@ install -m 755 risi-wayland.desktop %{buildroot}%{_datarootdir}/xsessions/risi-w
 %files
 /usr/share/glib-2.0/10_risi-settings.gschema.override
 /usr/share/gnome-shell/modes/risi.json
-/usr/share/gnome-shell/theme/risi.css
 /usr/share/xsessions/risi.desktop
 /usr/share/xsessions/risi-wayland.desktop
 /usr/share/wayland-sessions/risi-wayland.desktop
