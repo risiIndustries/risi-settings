@@ -21,7 +21,7 @@ session-name = "risi"
 ##################################
 
 [org.gnome.desktop.interface:risi]
-gtk-theme = "Adw-gtk3"
+gtk-theme = "Adwaita"
 icon-theme = "Adwaita"
 
 [org.gtk.Settings.FileChooser:risi]
