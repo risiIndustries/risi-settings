@@ -33,7 +33,6 @@ mkdir -p %{buildroot}%{_datarootdir}/wayland-sessions
 mkdir -p %{buildroot}%{_datarootdir}/xsessions
 install -m 755 10_risi-settings.gschema.override %{buildroot}%{_datarootdir}/glib-2.0/10_risi-settings.gschema.override
 install -m 755 risi.json %{buildroot}%{_datarootdir}/gnome-shell/modes/risi.json
-install -m 755 risi.css %{buildroot}%{_datarootdir}/gnome-shell/theme/risi.css
 install -m 755 risi.desktop %{buildroot}%{_datarootdir}/xsessions/risi.desktop
 install -m 755 risi-wayland.desktop %{buildroot}%{_datarootdir}/wayland-sessions/risi-wayland.desktop
 install -m 755 risi-wayland.desktop %{buildroot}%{_datarootdir}/xsessions/risi-wayland.desktop
@@ -47,7 +46,7 @@ install -m 755 risi-wayland.desktop %{buildroot}%{_datarootdir}/xsessions/risi-w
 /usr/share/wayland-sessions/risi-wayland.desktop
 
 %changelog
-* Mon Aug 12 2021 PizzaLovingNerd
+* Thu Feb 25 2022 PizzaLovingNerd
 - Fixed GNOME Shell Theme
 - Fixed Wayland session not showing up
 - Fixed Settings not working.

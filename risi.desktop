@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=risi
 Comment=This session logs you into the risi gnome session
-Exec=env GNOME_SHELL_SESSION_MODE=risi gnome-session
+Exec=env GNOME_SHELL_SESSION_MODE=risi gnome-session --session=risi
 TryExec=gnome-session
 Type=Application
 DesktopNames=risi:GNOME
