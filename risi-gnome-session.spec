@@ -1,6 +1,6 @@
 Name:           risi-gnome-session
 Version:        0.3
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Session for risiOS
 
 License:        GPLv3+
@@ -28,7 +28,6 @@ GNOME Session for risiOS (allows custom settings and themes)
 %install
 mkdir -p %{buildroot}%{_datarootdir}/glib-2.0
 mkdir -p %{buildroot}%{_datarootdir}/gnome-shell/modes
-mkdir -p %{buildroot}%{_datarootdir}/gnome-shell/theme
 mkdir -p %{buildroot}%{_datarootdir}/wayland-sessions
 mkdir -p %{buildroot}%{_datarootdir}/xsessions
 install -m 755 00_risi.gschema.override %{buildroot}%{_datarootdir}/glib-2.0/10_risi-settings.gschema.override
