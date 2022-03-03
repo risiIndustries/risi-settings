@@ -1,6 +1,6 @@
 Name:           risi-gnome-session
 Version:        0.4
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Session for risiOS
 
 License:        GPLv3+
@@ -16,6 +16,7 @@ Requires:	gnome-shell-extension-drive-menu
 Requires:	gnome-shell-extension-risi-gnome
 Requires:	gnome-shell-extension-dock-from-dash
 Requires:	gnome-shell-extension-sound-output-device-chooser
+Requires: adw-gtk-theme
 
 BuildArch:  noarch
 
