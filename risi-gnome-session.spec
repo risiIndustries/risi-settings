@@ -1,6 +1,6 @@
 Name:           risi-gnome-session
 Version:        0.4
-Release:        6%{?dist}
+Release:        7%{?dist}
 Summary:        Session for risiOS
 
 License:        GPLv3+
