@@ -1,6 +1,6 @@
 Name:           risi-gnome-session
 Version:        0.4
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Session for risiOS
 
 License:        GPLv3+
@@ -28,20 +28,24 @@ GNOME Session for risiOS (allows custom settings and themes)
 %build
 %install
 mkdir -p %{buildroot}%{_datarootdir}/glib-2.0/schemas
+mkdir -p %{buildroot}%{_datarootdir}/gnome-session/sessions
 mkdir -p %{buildroot}%{_datarootdir}/gnome-shell/modes
 mkdir -p %{buildroot}%{_datarootdir}/wayland-sessions
 mkdir -p %{buildroot}%{_datarootdir}/xsessions
 install -m 755 00_risi.gschema.override %{buildroot}%{_datarootdir}/glib-2.0/schemas/00_risi.gschema.override
 install -m 755 risi.json %{buildroot}%{_datarootdir}/gnome-shell/modes/risi.json
 install -m 755 risi.desktop %{buildroot}%{_datarootdir}/xsessions/risi.desktop
+install -m 755 risi.desktop %{buildroot}%{_datarootdir}/wayland-sessions/risi.desktop
 install -m 755 risi-wayland.desktop %{buildroot}%{_datarootdir}/wayland-sessions/risi-wayland.desktop
-install -m 755 risi-wayland.desktop %{buildroot}%{_datarootdir}/xsessions/risi-wayland.desktop
+install -m 755 risi-xorg.desktop %{buildroot}%{_datarootdir}/xsessions/risi-wayland.desktop
+install -m 755 risi.session %{buildroot}%{_datarootdir}/gnome-session/sessions
 
 %files
 %{_datarootdir}/glib-2.0/schemas/00_risi.gschema.override
 %{_datarootdir}/gnome-shell/modes/risi.json
 %{_datarootdir}/xsessions/risi.desktop
-%{_datarootdir}/xsessions/risi-wayland.desktop
+%{_datarootdir}/xsessions/risi-xorg.desktop
+%{_datarootdir}/wayland-sessions/risi.desktop
 %{_datarootdir}/wayland-sessions/risi-wayland.desktop
 
 %changelog
