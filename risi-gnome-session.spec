@@ -47,6 +47,7 @@ cp risi.session %{buildroot}%{_datarootdir}/gnome-session/sessions
 %{_datarootdir}/xsessions/risi-xorg.desktop
 %{_datarootdir}/wayland-sessions/risi.desktop
 %{_datarootdir}/wayland-sessions/risi-wayland.desktop
+%{_datarootdir}/gnome-session/sessions/risi.session
 
 %changelog
 * Fri Feb 25 2022 PizzaLovingNerd
