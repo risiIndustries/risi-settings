@@ -1,6 +1,6 @@
 Name:           risi-gnome-session
 Version:        0.4
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Session for risiOS
 
 License:        GPLv3+
@@ -30,18 +30,21 @@ mkdir -p %{buildroot}%{_datarootdir}/glib-2.0
 mkdir -p %{buildroot}%{_datarootdir}/gnome-shell/modes
 mkdir -p %{buildroot}%{_datarootdir}/wayland-sessions
 mkdir -p %{buildroot}%{_datarootdir}/xsessions
-install -m 755 00_risi.gschema.override %{buildroot}%{_datarootdir}/glib-2.0/schemas/00_risi.gschema.override
-install -m 755 risi.json %{buildroot}%{_datarootdir}/gnome-shell/modes/risi.json
-install -m 755 risi.desktop %{buildroot}%{_datarootdir}/xsessions/risi.desktop
-install -m 755 risi-wayland.desktop %{buildroot}%{_datarootdir}/wayland-sessions/risi-wayland.desktop
-install -m 755 risi-wayland.desktop %{buildroot}%{_datarootdir}/xsessions/risi-wayland.desktop
+mkdir -p %{buildroot}%{_sysconfdir}/systemd/system/gnome-session@risi.target.d
+cp risi.session.conf %{buildroot}%{_sysconfdir}/systemd/system/gnome-session@risi.target.d
+cp 00_risi.gschema.override %{buildroot}%{_datarootdir}/glib-2.0/schemas/00_risi.gschema.override
+cp 755 risi.json %{buildroot}%{_datarootdir}/gnome-shell/modes/risi.json
+cp 755 risi.desktop %{buildroot}%{_datarootdir}/xsessions/risi.desktop
+cp 755 risi-wayland.desktop %{buildroot}%{_datarootdir}/wayland-sessions/risi-wayland.desktop
+cp 755 risi-wayland.desktop %{buildroot}%{_datarootdir}/xsessions/risi-wayland.desktop
 
 %files
-/usr/share/glib-2.0/schemas/00_risi.gschema.override
-/usr/share/gnome-shell/modes/risi.json
-/usr/share/xsessions/risi.desktop
-/usr/share/xsessions/risi-wayland.desktop
-/usr/share/wayland-sessions/risi-wayland.desktop
+%{_sysconfdir}/systemd/system/gnome-session@risi.target.d
+%{_datarootdir}/glib-2.0/schemas/00_risi.gschema.override
+%{_datarootdir}/gnome-shell/modes/risi.json
+%{_datarootdir}/xsessions/risi.desktop
+%{_datarootdir}/xsessions/risi-wayland.desktop
+%{_datarootdir}/wayland-sessions/risi-wayland.desktop
 
 %changelog
 * Thu Feb 25 2022 PizzaLovingNerd
