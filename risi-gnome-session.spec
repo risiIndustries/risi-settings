@@ -9,7 +9,7 @@ Source0:        https://github.com/risiOS/risi-gnome-session/archive/refs/heads/
 
 Provides: 	gnome-session-xsession
 Provides: 	gnome-session-wayland-session
-Depends:    gnome-session
+Requires:	gnome-session
 
 
 Requires:	gnome-session
