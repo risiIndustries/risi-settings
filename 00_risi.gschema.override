@@ -20,21 +20,21 @@ session-name = "risi"
 # risiOS common session settings #
 ##################################
 
-[org.gnome.desktop.interface:risi]
+[org.gnome.desktop.interface]
 gtk-theme = "adw-gtk3"
 icon-theme = "Adwaita"
 
-[org.gtk.Settings.FileChooser:risi]
+[org.gtk.Settings.FileChooser]
 sort-directories-first = true
 
-[org.gnome.desktop.peripherals.touchpad:risi]
+[org.gnome.desktop.peripherals.touchpad]
 tap-to-click = true
 
-[org.gnome.desktop.wm.preferences:risi]
+[org.gnome.desktop.wm.preferences]
 button-layout = 'appmenu:minimize,close'
 
-[org.gnome.eog.ui:risi]
+[org.gnome.eog.ui]
 sidebar = false
 
-[org.gnome.nautilus.desktop:risi]
+[org.gnome.nautilus.desktop]
 home-icon-visible = true
