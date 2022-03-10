@@ -4,8 +4,8 @@ Release:        1%{?dist}
 Summary:        Default settings for risiOS
 
 License:        GPLv3+
-URL:            https://github.com/risiOS/risi-gnome-settings
-Source0:        https://github.com/risiOS/risi-gnome-settings/archive/refs/heads/main.tar.gz#/%{name}-main.tar.gz
+URL:            https://github.com/risiOS/risi-settings
+Source0:        https://github.com/risiOS/risi-settings/archive/refs/heads/main.tar.gz#/%{name}-main.tar.gz
 
 Requires:	gnome-shell-extension-appindicator
 Requires:	gnome-shell-extension-drive-menu
