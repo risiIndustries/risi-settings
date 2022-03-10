@@ -17,7 +17,7 @@ Requires: 	adw-gtk-theme
 BuildArch:  noarch
 
 %description
-risiOS GNOME Sessions
+risiOS Settings
 
 %prep
 %autosetup -n %{name}-main
