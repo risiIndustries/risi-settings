@@ -13,9 +13,6 @@ picture-uri = 'file:///usr/share/backgrounds/risios-35-backgrounds/Default.png'
 [org.gnome.desktop.screensaver]
 picture-uri = 'file:///usr/share/backgrounds/risios-35-backgrounds/Default.png'
 
-[org.gnome.desktop.session]
-session-name = "risi"
-
 ##################################
 # risiOS common session settings #
 ##################################
