@@ -5,7 +5,7 @@
 ###################
 
 [org.gnome.shell]
-favorite-apps = ['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Geary.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Photos.desktop', 'org.gnome.Totem.desktop', 'org.gnome.Music.desktop', 'org.gnome.Software.desktop']
+favorite-apps = ['chromium-browser.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Geary.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Photos.desktop', 'org.gnome.Totem.desktop', 'org.gnome.Music.desktop', 'org.gnome.Software.desktop']
 enabled-extensions = ["appindicatorsupport@rgcjonas.gmail.com", "drive-menu@gnome-shell-extensions.gcampax.github.com", "dock-from-dash@fthx", "risiGNOME@risi.io", "sound-output-device-chooser@kgshank.net"]
 
 [org.gnome.desktop.background]
