@@ -11,8 +11,7 @@ Requires:	gnome-shell-extension-appindicator
 Requires:	gnome-shell-extension-drive-menu
 Requires:	gnome-shell-extension-risi-gnome
 Requires:	gnome-shell-extension-dock-from-dash
-Requires:	gnome-shell-extension-sound-output-device-chooser
-Requires: 	adw-gtk-theme
+Requires: adw-gtk-theme
 
 BuildArch:  noarch
 
