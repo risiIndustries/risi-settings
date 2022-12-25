@@ -37,3 +37,6 @@ sidebar = false
 
 [org.gnome.nautilus.desktop]
 home-icon-visible = true
+
+[io.risi.rtheme]
+enabled-plugins = ['gtk3', 'gtk4', 'gnome_shell']
