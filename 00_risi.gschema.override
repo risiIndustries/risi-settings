@@ -9,11 +9,11 @@ favorite-apps = ['chromium-browser.desktop', 'chromium-freeworld.desktop', 'org.
 enabled-extensions = ["appindicatorsupport@rgcjonas.gmail.com", "drive-menu@gnome-shell-extensions.gcampax.github.com", "dock-from-dash@fthx", "risiGNOME@risi.io", "sound-output-device-chooser@kgshank.net"]
 
 [org.gnome.desktop.background]
-picture-uri = 'file:///usr/share/backgrounds/risios-37/37-light-blood-orange.png'
-picture-uri-dark = 'file:///usr/share/backgrounds/risios-37/37-dark-blood-orange.png'
+picture-uri = 'file:///usr/share/backgrounds/risios-fragile/fragile.png'
+picture-uri-dark = 'file:///usr/share/backgrounds/risios-fragile/fragile.png'
 
 [org.gnome.desktop.screensaver]
-picture-uri = 'file:///usr/share/backgrounds/risios-37/37-light-blood-orange.png'
+picture-uri = 'file:///usr/share/backgrounds/risios-fragile/fragile.png'
 
 ##################################
 # risiOS common session settings #
