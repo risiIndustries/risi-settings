@@ -1,6 +1,6 @@
 Name:           risi-settings
-Version:        37.1
-Release:        10%{?dist}
+Version:        38
+Release:        11%{?dist}
 Summary:        Default settings for risiOS
 
 License:        GPLv3+
