@@ -7,10 +7,10 @@ License:        GPLv3+
 URL:            https://github.com/risiOS/risi-settings
 Source0:        https://github.com/risiOS/risi-settings/archive/refs/heads/main.tar.gz#/%{name}-main.tar.gz
 
-Requires:	gnome-shell-extension-appindicator
 Requires:	gnome-shell-extension-drive-menu
 Requires:	gnome-shell-extension-risi-gnome
 Requires:	gnome-shell-extension-dock-from-dash
+Requires:   gnome-shell-extension-caffeine
 Requires:   adw-gtk3
 
 BuildArch:  noarch

@@ -5,8 +5,8 @@
 ###################
 
 [org.gnome.shell]
-favorite-apps = ['chromium-browser.desktop', 'chromium-freeworld.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Geary.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Photos.desktop', 'org.gnome.Totem.desktop', 'org.gnome.Music.desktop', 'org.gnome.Software.desktop']
-enabled-extensions = ["appindicatorsupport@rgcjonas.gmail.com", "drive-menu@gnome-shell-extensions.gcampax.github.com", "dock-from-dash@fthx", "risiGNOME@risi.io", "sound-output-device-chooser@kgshank.net"]
+favorite-apps = ['org.gnome.Epiphany.desktop', 'chromium-freeworld.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Geary.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Photos.desktop', 'org.gnome.Totem.desktop', 'org.gnome.Music.desktop', 'org.gnome.Software.desktop']
+enabled-extensions = ["gnome-shell-extension-caffeine", "drive-menu@gnome-shell-extensions.gcampax.github.com", "dock-from-dash@fthx", "risiGNOME@risi.io", "sound-output-device-chooser@kgshank.net"]
 
 [org.gnome.desktop.background]
 picture-uri = 'file:///usr/share/backgrounds/risios-38/lightning.png'
@@ -18,6 +18,9 @@ picture-uri = 'file:///usr/share/backgrounds/risios-38/lightning.png'
 [org.gnome.desktop.interface]
 gtk-theme = "adw-gtk3"
 icon-theme = "Adwaita"
+
+[org.gnome.desktop.app-folders.folders.Utilities]
+apps = ['yelp.desktop', 'org.x.webapp-manager.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Characters.desktop', 'org.gnome.Logs.desktop', 'org.gnome.baobab.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.font-viewer.desktop', 'gnome-system-monitor.desktop', 'simple-scan.desktop', 'io.github.celluloid_player.Celluloid.desktop', 'org.gnome.Connections.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop']
 
 [org.gtk.Settings.FileChooser]
 sort-directories-first = true
