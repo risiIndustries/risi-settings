@@ -15,10 +15,6 @@ picture-uri-dark = 'file:///usr/share/backgrounds/risios-38/lightning_dark.png'
 [org.gnome.desktop.screensaver]
 picture-uri = 'file:///usr/share/backgrounds/risios-38/lightning.png'
 
-##################################
-# risiOS common session settings #
-##################################
-
 [org.gnome.desktop.interface]
 gtk-theme = "adw-gtk3"
 icon-theme = "Adwaita"
@@ -40,3 +36,8 @@ home-icon-visible = true
 
 [io.risi.rtheme]
 enabled-plugins = ['gtk3', 'gtk4', 'gnome_shell']
+
+[org.gnome.epiphany]
+search-engine-providers = [{'url': <'https://www.bing.com/search?q=%s'>, 'bang': <'!b'>, 'name': <'Bing'>}, {'url': <'https://duckduckgo.com/?q=%s&t=epiphany'>, 'bang': <'!ddg'>, 'name': <'DuckDuckGo'>}, {'url': <'https://www.google.com/search?q=%s'>, 'bang': <'!g'>, 'name': <'Google'>}, {'url': <'https://searx.risi.io/search?q=%s'>, 'bang': <'!r'>, 'name': <'risiSearx'>}]
+default-search-engine = 'risiSearx'
+homepage-url = "https://home.risi.io"
