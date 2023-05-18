@@ -5,7 +5,7 @@
 ###################
 
 [org.gnome.shell]
-favorite-apps = ['org.gnome.Epiphany.desktop', 'org.gnome.Nautilus.desktop', 'onlyoffice-desktopeditors.desktop', 'com.github.maoschanz.drawing.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Photos.desktop', 'org.gnome.Software.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Terminal.desktop', 'anaconda.desktop']
+favorite-apps = ['org.gnome.Epiphany.desktop', 'org.gnome.Nautilus.desktop', 'onlyoffice-desktopeditors.desktop', 'com.github.maoschanz.drawing.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Photos.desktop', 'org.gnome.Software.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Terminal.desktop']
 enabled-extensions = ["gnome-shell-extension-caffeine", "drive-menu@gnome-shell-extensions.gcampax.github.com", "dock-from-dash@fthx", "risiGNOME@risi.io", "sound-output-device-chooser@kgshank.net"]
 
 [org.gnome.desktop.background]
